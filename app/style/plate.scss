@@ -1,0 +1,13 @@
+.plate {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 250px;
+  height: 125px;
+  border-radius: 50%;
+  background-color: #ccc;
+
+  &.is-over {
+    background-color: green;
+  }
+}
